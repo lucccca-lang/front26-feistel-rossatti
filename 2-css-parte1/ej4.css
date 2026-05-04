@@ -1,0 +1,9 @@
+li {
+    display: inline;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+}
