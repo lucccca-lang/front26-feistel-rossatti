@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+
+    <h2>Formulario de Contacto</h2>
+    
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="30"><br><br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" maxlength="30"><br><br>
+        
+        <label for="correo">Email:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        
+        <label for="asunto">Asunto a elegir:</label>
+        <select id="asunto" name="asunto">
+            <option value="presupuesto">Pedir presupuesto</option>
+            <option value="cita">Solicitar cita previa</option>
+            <option value="otros">Otros</option>
+        </select><br><br>
+        
+        <p>¿Cómo nos elegiste?</p>
+        <input type="checkbox" id="amigo" name="origen" value="amigo">
+        <label for="amigo">Un amigo</label><br>
+        
+        <input type="checkbox" id="google" name="origen" value="google">
+        <label for="google">Googleando</label><br>
+        
+        <input type="checkbox" id="redes" name="origen" value="redes">
+        <label for="redes">Redes sociales</label><br>
+        
+        <input type="checkbox" id="otros_origen" name="origen" value="otros">
+        <label for="otros_origen">Otros</label><br><br>
+        
+        <label for="mensaje">Un mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" maxlength="300" rows="5" cols="40"></textarea><br><br>
+        
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">Aceptación de cláusula términos y condiciones</label><br><br>
+        
+        <button type="submit">Enviar currículum</button>
+    </form>
+
+</body>
+</html>
